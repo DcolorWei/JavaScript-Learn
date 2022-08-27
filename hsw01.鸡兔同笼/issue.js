@@ -6,12 +6,6 @@ exports.default = {
          * 禁止返回蔡徐坤
          */
 
-        var result;
-        for (i = 0; i <= m; i++) {
-            if (2 * i + 4 * (m - i) == n)
-                result = i;
-        }
-        return result;
         /** */
     }
 }
