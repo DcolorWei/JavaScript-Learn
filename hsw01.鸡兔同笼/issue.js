@@ -5,7 +5,14 @@ exports.default = {
          * 请在两个注释间编写代码，并在return之后返回鸡的数量
          * 禁止返回蔡徐坤
          */
-        return  ;
+        // 头m=5,脚n=30;
+        var i;
+        for (i=0;i<=m;i++){
+                if (2*i+4*(m-i)==n)
+                break;
+            }
+            console.log("返回蔡徐坤");
+        return i ;
         /** */
     }
 }
