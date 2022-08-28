@@ -5,7 +5,7 @@ exports.default = {
          * 请在两个注释间编写代码，并在return之后返回鸡的数量
          * 禁止返回蔡徐坤
          */
-
+        return  ;
         /** */
     }
 }
