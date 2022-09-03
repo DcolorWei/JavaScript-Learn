@@ -9,7 +9,7 @@ let result = example.find((item, index) => {
         obj?.name == item[0] &&
         obj?.getName() == item[0] &&
         obj?.arr == item[1] &&
-        obj?.getFindMaxValue() == item[2]
+        obj?.findMaxValue() == item[2]
     )
 })
 
