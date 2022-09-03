@@ -8,7 +8,22 @@ exports.default = {
          * 对象存在一个函数 findMaxValue ，使用this遍历数组并返回其最大值
          * 返回该对象
          */
-        return 
+        var obj = {
+            name : m,
+            arr : n,
+            getName: function (){
+                return this.name;
+            },
+            findMaxValue: function(){
+                var max=this.arr[0];
+                for (var i = 1;i<=this.arr.length-1;i++){
+                    if(max<this.arr[i])
+                    max=this.arr[i]; 
+                }
+                return max;
+            },
+        }
+        return obj;
         /** */
     }
 }
