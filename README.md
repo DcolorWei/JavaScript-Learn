@@ -1,2 +1,2 @@
 # jslearn
-Study repository for Akane
+Study 
