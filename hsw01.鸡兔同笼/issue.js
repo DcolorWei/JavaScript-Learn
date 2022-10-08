@@ -6,13 +6,9 @@ exports.default = {
          * 禁止返回蔡徐坤
          */
         // 头m=5,脚n=30;
-        var i;
-        for (i=0;i<=m;i++){
-                if (2*i+4*(m-i)==n)
-                break;
-            }
-            console.log("返回蔡徐坤");
-        return i ;
+        var cxk;
+        cxk = 2*m - n/2;
+        return cxk;
         /** */
     }
 }
